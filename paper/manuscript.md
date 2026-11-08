@@ -126,10 +126,13 @@ cond-mat.stat-mech. The NVD corpus is a templated negative control: short,
 formulaic security descriptions.
 
 **Known data limitations.** NVD months 2024-07, 2025-03, 2026-09 and 2026-10 are
-empty after repeated rate-limit failures. arXiv is sampled with `sortBy=submittedDate`
-and `max_results=1000` per month, so late-2026 months over-represent the last
-submissions of each month; this is a plausible driver of the 2026 instability
-reported below.
+empty after repeated rate-limit failures. Every arXiv month contains ~1,000 documents
+and the computer-science share is stable at roughly 70% across the window, so the sharp
+index decline in late 2026 is **not** explained by document counts or gross category
+composition. Its cause is unresolved. Candidate explanations include within-month API
+ordering (each month is the most recent 1,000 matching submissions) and a genuine
+vocabulary shift; we do not adjudicate between them and we do not use the late-2026
+points to support any claim.
 
 # 4. Method
 

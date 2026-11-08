@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "The AI Prose Clock: Detection-Free Measurement of LLM-Style Writing Diffusion, 2019-2026"
+abstract: >-
+  A corpus-internal, detection-free estimator of the diffusion of LLM-style
+  prose. For every word we fit a pre-ChatGPT log-rate trend with seasonality,
+  extrapolate a counterfactual, and measure post-2022 excess vocabulary across
+  independent corpora; a logistic diffusion curve converts the index into
+  dated milestones.
+authors:
+  - family-names: Jaffar
+    given-names: Ahmed
+    website: https://ahmedjaffar.ca
+date-released: "2026-11-07"
+license: MIT
+repository-code: "https://github.com/AhmedJaffar/ai-prose-clock"
+keywords:
+  - computational social science
+  - LLM-assisted writing
+  - stylometry
+  - excess vocabulary
+  - diffusion
+type: software

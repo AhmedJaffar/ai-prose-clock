@@ -1,0 +1,59 @@
+{
+  "seed_0": {
+    "true_shock": 2022.92,
+    "true_half_month": "2022-12",
+    "top_ranked_marker_recovery": 1.0,
+    "n_markers": 20,
+    "fitted_ok": true,
+    "fitted_half_month": "2022-11",
+    "fitted_onset_month": "2022-06",
+    "fitted_saturation_month": "2023-05",
+    "half_date_error_months": 1.0400000000017826,
+    "placebo_index_post_mean": 0.0003360374343542619,
+    "placebo_shock_top_mean_excess": 0.032164865497366565,
+    "checks": {
+      "recovers_markers": true,
+      "dates_within_3_months": true,
+      "placebo_specific": true,
+      "placebo_date_flat": true
+    }
+  },
+  "seed_1": {
+    "true_shock": 2022.92,
+    "true_half_month": "2022-12",
+    "top_ranked_marker_recovery": 1.0,
+    "n_markers": 20,
+    "fitted_ok": true,
+    "fitted_half_month": "2022-11",
+    "fitted_onset_month": "2022-06",
+    "fitted_saturation_month": "2023-05",
+    "half_date_error_months": 1.0400000000017826,
+    "placebo_index_post_mean": 0.005264933558281649,
+    "placebo_shock_top_mean_excess": 0.02664834152873839,
+    "checks": {
+      "recovers_markers": true,
+      "dates_within_3_months": true,
+      "placebo_specific": true,
+      "placebo_date_flat": true
+    }
+  },
+  "seed_2": {
+    "true_shock": 2022.92,
+    "true_half_month": "2022-12",
+    "top_ranked_marker_recovery": 1.0,
+    "n_markers": 20,
+    "fitted_ok": true,
+    "fitted_half_month": "2022-11",
+    "fitted_onset_month": "2022-06",
+    "fitted_saturation_month": "2023-05",
+    "half_date_error_months": 1.0400000000017826,
+    "placebo_index_post_mean": 0.0052403213423818425,
+    "placebo_shock_top_mean_excess": 0.030658567096432617,
+    "checks": {
+      "recovers_markers": true,
+      "dates_within_3_months": true,
+      "placebo_specific": true,
+      "placebo_date_flat": true
+    }
+  }
+}
